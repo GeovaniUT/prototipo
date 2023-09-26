@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import { Container, Row, Col, Nav, Card } from 'react-bootstrap';
 
 function CondicionAtmosferica() {
-  const API_URL = "https://api.datos.gob.mx/v1/condiciones-atmosfericas";
+  const API_URL = "https://api.datos.gob.mx/v1/condiciones-atmosfericas?pagesize=5000";
   
   const [datos, setDatos] = useState([]);
   const [estadoActual, setEstadoActual] = useState("");

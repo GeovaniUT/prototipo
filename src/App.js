@@ -1,11 +1,14 @@
 import './App.css';
 import CondicionAtmosferica from './components/dashboard';
+import Navbar from './components/navbar';
+
 
 function App() {
   return (
-    <div className="App">
+    <>
+      <Navbar/>
       <CondicionAtmosferica />
-    </div>
+    </>
   );
 }
 
